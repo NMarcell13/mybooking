@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+</head>
+<body>
+    <form method="POST" action="php/register.php">
+        <h1>Regisztráció</h1>
+
+        <label for="username">Felhasználónév:</label><br>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Jelszó:</label><br>
+        <input type="text" id="password" name="password" required><br>
+
+        <label for="email">Email cím:</label><br>
+        <input type="text" id="email" name="email" required><br>
+
+        <label for="telszam">Telefonszám:</label><br>
+        <input type="text" id="telszam" name="telszam" required><br>
+
+        <label for="vnev">Vezeték név:</label><br>
+        <input type="text" id="vnev" name="vnev" required><br>
+
+        <label for="knev">Kereszt név:</label><br>
+        <input type="text" id="knev" name="knev" required><br>
+
+        <label for="szulev">Mikor született:</label><br>
+        <input type="date" id="szulev" name="szulev" required><br>
+
+        <label for="szulhely">Hol született:</label><br>
+        <input type="text" id="szulhely" name="szulhely" required><br>
+
+        <label for="nem">Milyen nemhez sorolja magát:</label><br>
+        <input type="radio" id="ferfi" name="nem" value="ferfi" required>
+        <label for="ferfi">Férfi</label><br>
+        <input type="radio" id="no" name="nem" value="no" >
+        <label for="no">Nő</label><br>
+        <input type="radio" id="egyeb" name="nem" value="egyeb">
+        <label for="egyeb">Egyéb</label><br>
+
+        <label for="lakcim">Lakcím:</label><br>
+        <input type="text" id="lakcim" name="lakcim" required><br>
+
+        <label for="taj">TAJ szám:</label><br>
+        <input type="text" id="taj" name="taj" required><br>
+
+        <label for="aneve">Anyja neve:</label><br>
+        <input type="text" id="aneve" name="aneve" required><br>
+
+        <br>
+
+        <input type="submit" value="Regisztráció">
+</body>
+</html>
