@@ -1,0 +1,3 @@
+Nagy Dávid: Feltöltötte az adatbázist adatokkal, tesztelési célból meg hogy látható legyen a dizájn teljessége
+Algács Tamás András: Megcsinálta a footert és szövegeket írt a weboldalhoz(nem a felhasználókhoz, az dávid feladata volt), például footer szöveg és stb
+Nágel Marcell: Backend további fejlesztése, hibajavítása és keresése.
